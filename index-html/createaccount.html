@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   
+</head>
+<body class="bg-sky-50 ">
+
+    <header class="w-full bg-white">
+        <div class="mx-auto max-w-7xl px-2 flex justify-between py-6"> 
+            <!-- logo -->
+            <div class="flex gap-1 items-center justify-center">
+                <p class="px-3 py-1 font-semibold bg-linear-to-r from-[#F85259] to-[#3352A5] rounded-lg text-white">R</p>
+                <p class="font-semibold text-sm">Rentitnownow.com</p>
+            </div>
+
+            <div class="rounded-lg  py-2 px-2 bg-linear-to-r from-[#F85259] to-[#3352A5] flex gap-1">
+            <img src="/img/Vector.png" alt="" class="w-5 h-5">
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Account creation -->
+    <section class="flex justify-center items-center text-sm text-gray-800">
+        <div class="w-full max-w-3xl flex flex-col mt-10 rounded-lg">
+            <!-- create your account -->
+            <div class="flex flex-col items-center">
+                <div class="w-full max-w-[450px] text-center space-y-1">
+                    <h1 class="text-3xl font-bold">Create Your Account</h1>
+                    <p class="text-sm">Join thousands of users on Rentitnownow</p>
+                </div>
+
+                <div class="w-full max-w-[450px] flex justify-center gap-2 my-6">
+                    <div class="text-center py-6 px-8 bg-white hover:bg-orange-50 hover:shadow rounded-lg">
+                        <img src="/img/stash_user-id-light.png" alt="" class="mx-auto">
+                        <h3 class="font-semibold">I am a Guest</h3>
+                        <p class="font-light">Looking for a place to stay</p>
+                    </div>
+                    <div class="text-center py-6 px-8 bg-white hover:bg-sky-50 hover:shadow rounded-lg">
+                        <img src="/img/solar_home-line-duotone.png" alt="" class="mx-auto">
+                        <h3 class="font-semibold">I'm a Property Owner</h3>
+                        <p class="font-light">Looking to list my property</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- registration details -->
+             <div class="flex flex-col items-center">
+                <div class="w-full max-w-[650px] grid  items-center gap-2 bg-white p-8 rounded-lg">
+                    <div class="w-full">
+                        <div>
+                            <h2 class="font-semibold text-xl pb-4">Registration Details</h2>
+                        </div>
+
+                        <!-- name -->
+                        <div class="grid grid-cols-1 grid-cols-2 gap-5 mb-3">
+                            <div class="space-y-1">
+                                <p>First Name</p>
+                                <input type="text" placeholder="Enter first name" class="outline-gray-400 p-2 w-full text-sm border-2 border-gray-300 rounded-lg">
+                            </div>
+                            <div class="space-y-1">
+                                <p>Last Name</p>
+                                <input type="text" placeholder="Enter last name" class="outline-gray-400 p-2 w-full text-sm border-2 border-gray-300 rounded-lg" >
+                            </div>
+                        </div>
+
+                        <!-- email -->
+                        <div class="grid grid-cols-1 grid-cols-2 gap-5 mb-3">
+                            <div class="space-y-1">
+                                <p>Email address</p>
+                                <input type="text" placeholder="email@sample.com" class="outline-gray-400 p-2 w-full text-sm border-2 border-gray-300 rounded-lg">
+                            </div>
+                            <div class="space-y-1">
+                                <p>Phone number</p>
+                                <input type="text" placeholder="+234" class="outline-gray-400 p-2 w-full text-sm border-2 border-gray-300 rounded-lg" >
+                            </div>
+                        </div>
+
+                        <!-- password -->
+                        <div class="grid grid-cols-1 grid-cols-2 gap-5 mb-3">
+                            <div class="space-y-1">
+                                <p>Create Password</p>
+                                <input type="text" placeholder="Enter first name" class="outline-gray-400 p-2 w-full text-sm border-2 border-gray-300 rounded-lg">
+                            </div>
+                            <div class="space-y-1">
+                                <p>Confirm Password</p>
+                                <input type="text" placeholder="Enter last name" class="outline-gray-400 p-2 w-full text-sm border-2 border-gray-300 rounded-lg" >
+                            </div>
+                        </div>
+
+                        <!-- location -->
+                        <div class="grid grid-cols-1 grid-cols-2 gap-5 mb-3">
+                            <div class="space-y-1">
+                                <p>Location(State, City)</p>
+                                <input type="text" placeholder="Where are planning to stay" class="outline-gray-400 p-2 w-full text-sm border-2 border-gray-300 rounded-lg">
+                            </div>
+                            <div class="space-y-1">
+                                <p>National Identification Number (NIN)</p>
+                                <input type="text" class="outline-gray-400 p-2 w-full text-sm border-2 border-gray-300 rounded-lg" >
+                            </div>
+                        </div>
+                
+                    </div>
+
+                    <div class="my-5">
+                        <p class="text-blue-600 text-sm  bg-orange-50 border border-orange-200 py-2 pl-3 rounded-xl"> <span><i class="ri-error-warning-line"></i></span> By registering,  you agree to our Terms of service and Privacy Policy.</p>
+                    </div>
+
+                    <button class="w-full border rounded-lg bg-linear-to-r from-[#F85259] to-[#3352A5] border-none text-white py-2 hover:from-[#c7323a] hover:to-[#1f3a84]"><a href="#">Create Guest Account</a>
+                    </button>
+
+                    <div class="text-center mt-10">
+                    <p>Already have an account? <a href="#" class="text-red-600 hover:underline">Sign in here</a></p>
+                </div>
+
+                    
+
+                </div>
+
+                <div class="w-full max-w-[650px] px-8">
+                    
+
+                </div>
+
+                
+
+
+                
+
+             </div>
+                
+        </div>
+
+        
+
+    </section>
+
+    
+    
+        
+    
+    
+</body>
+</html>
